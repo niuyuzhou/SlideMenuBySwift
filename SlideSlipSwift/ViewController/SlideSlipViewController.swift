@@ -14,7 +14,6 @@ protocol SlideSlipViewControllerDelegate {
     func changeCurrentContentView(index: Int)
 }
 
-
 class SlideSlipViewController: UIViewController, SlideSlipViewControllerDelegate {
 
     var leftMenuVC:LeftMenuViewController!
